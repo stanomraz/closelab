@@ -177,6 +177,8 @@ nav {
 /*  display: flex;
 
     align-items: center; */
+
+    display: flex;
 }
 
 .navbarul {
@@ -210,6 +212,17 @@ nav {
     padding-left: 0px;
 
     align-items: center; */
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px;
+    margin-left: 48px;
+    margin-right: 193px;
+
+    padding: 0px;
+
+    list-style-type: none;
 }
 
 .li-nav-item-static {
@@ -221,6 +234,9 @@ nav {
 
     margin-bottom: 0px;
     margin-right: 16px; */
+
+    margin-right: 16px;
+
 }
 
 .navlink {
@@ -240,7 +256,28 @@ nav {
 
     text-align: center;
     text-decoration-line: none; */
+
+    padding: 8px 8px;
+
+    text-decoration-line: none;
+
+    color: #1a232f;
+
+    font-size: 14px;
 }
+
+.linavitem2 {
+    margin-right: 16px;
+
+    font-size: 14px;
+}
+
+.linavitem3 {
+    margin-right: 16px;
+
+    font-size: 14px;
+}
+
 
 .navlinkcollapse {
 /*  color: #1a232f;
@@ -256,6 +293,12 @@ nav {
     text-align: center;
     text-decoration-color: #1a232f;
     text-decoration-line: none; */
+
+    padding: 8px 8px;
+
+    text-decoration-line: none;
+
+    color: #1a232f;
 }
 
 .pskn {
@@ -723,7 +766,7 @@ nav {
 .shape-p {
     width: 213px;
     right: -125px;
-    bottom: -260px;
+    bottom: -300px;
 
     position: absolute;
 
